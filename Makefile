@@ -17,6 +17,6 @@ perl:
 pig:
 	echo "     __,---.__" && echo "  ,-^         ^-.__" && echo "&/           '._\ _\." && echo "/               ''._ " && echo "|   ,             ('')" && echo "|__,'--..--|__|---'"
 haxe:
-	haxe --main pig --interp
+	haxe --main Pig --interp -p ./pig.hx
 clean:
 	rm ppig*

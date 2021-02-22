@@ -1,4 +1,4 @@
-class Main {
+class Pig {
     static public function main():Void {
       trace("     __,---.__\n");
       trace("  ,-'         `-.__\n");
