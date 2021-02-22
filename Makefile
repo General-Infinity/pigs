@@ -6,6 +6,8 @@ c:
 	gcc pig.c -w -Ofast -o ppigc
 cpp:
 	g++ pig.cpp -w -Ofast -o ppigcpp
+fortran:
+	gfortran pig.f -w -Ofast -o ppigf
 dart:
 	dart compile exe pig.dart
 	mv pig.exe ppigdart
@@ -19,6 +21,11 @@ perl:
 pig:
 	echo "     __,---.__" && echo "  ,-^         ^-.__" && echo "&/           '._\ _\." && echo "/               ''._ " && echo "|   ,             ('')" && echo "|__,'--..--|__|---'"
 haxe:
-	haxe --main pig --interp
+	haxe --main Pig --interp -p ./pig.hx
+
+cmake:
+	mkdir build && cd build
+	cmake ..
+
 clean:
 	rm ppig*
