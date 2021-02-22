@@ -1,0 +1,6 @@
+TextWindow.WriteLine("           __,---.__")
+TextWindow.WriteLine("        ,-'         `-.__")
+TextWindow.WriteLine("      &/           `._\ _\")
+TextWindow.WriteLine("      /               ''._")
+TextWindow.WriteLine("      |   ,             ('')")
+TextWindow.WriteLine("      |__,'`-..--|__|--''")
