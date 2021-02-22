@@ -6,6 +6,8 @@ c:
 	gcc pig.c -w -Ofast -o ppigc
 cpp:
 	g++ pig.cpp -w -Ofast -o ppigcpp
+d:
+	gdc pig.d -w -Ofast -o ppigd
 fortran:
 	gfortran pig.f -w -Ofast -o ppigf
 dart:
