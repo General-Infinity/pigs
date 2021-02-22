@@ -12,6 +12,8 @@ java:
 	mv pig.class ppigjava.class
 js:
 	node pig.js
+perl:
+	perl pig.pl
 pig:
 	echo "     __,---.__" && echo "  ,-^         ^-.__" && echo "&/           '._\ _\." && echo "/               ''._ " && echo "|   ,             ('')" && echo "|__,'--..--|__|---'"
 clean:

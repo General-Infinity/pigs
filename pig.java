@@ -6,6 +6,5 @@ class pigs {
         System.out.println("/               ''._ "); 
         System.out.println("|   ,             ('')"); 
         System.out.println("|__,'`-..--|__|--''"); 
-
     }
 }
