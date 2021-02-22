@@ -8,5 +8,7 @@ java:
 dart:
 	dart compile exe pigs.dart
 	mv pigs.exe ppigsdart
+pigs:
+	echo "     __,---.__" && echo "  ,-^         ^-.__" && echo "&/           '._\ _\." && echo "/               ''._ " && echo "|   ,             ('')" && echo "|__,'--..--|__|---'"
 clean:
 	rm ppigs*
