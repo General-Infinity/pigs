@@ -1,3 +1,5 @@
+awk:
+	awk -f pig.awk
 bf:
 	bfi main.bf
 c:
