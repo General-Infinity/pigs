@@ -10,6 +10,9 @@ d:
 	gdc pig.d -w -Ofast -o ppigd
 fortran:
 	gfortran pig.f -w -Ofast -o ppigf
+go:
+	go build pig.go
+	mv pig ppiggo
 dart:
 	dart compile exe pig.dart
 	mv pig.exe ppigdart
@@ -24,6 +27,8 @@ pig:
 	echo "     __,---.__" && echo "  ,-^         ^-.__" && echo "&/           '._\ _\." && echo "/               ''._ " && echo "|   ,             ('')" && echo "|__,'--..--|__|---'"
 haxe:
 	haxe --main Pig --interp -p ./pig.hx
+rust:
+	rustc pig.rs -o ppigrust
 
 cmake:
 	mkdir build && cd build
