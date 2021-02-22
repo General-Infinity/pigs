@@ -10,6 +10,9 @@ d:
 	gdc pig.d -w -Ofast -o ppigd
 fortran:
 	gfortran pig.f -w -Ofast -o ppigf
+go:
+	go build pig.go
+	mv pig ppiggo
 dart:
 	dart compile exe pig.dart
 	mv pig.exe ppigdart
