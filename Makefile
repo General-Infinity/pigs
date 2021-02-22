@@ -27,6 +27,8 @@ pig:
 	echo "     __,---.__" && echo "  ,-^         ^-.__" && echo "&/           '._\ _\." && echo "/               ''._ " && echo "|   ,             ('')" && echo "|__,'--..--|__|---'"
 haxe:
 	haxe --main Pig --interp -p ./pig.hx
+rust:
+	rustc pig.rs -o ppigrust
 
 cmake:
 	mkdir build && cd build
