@@ -3,6 +3,6 @@
           print *, "        ,-'         `-.__"
           print *, "      &/           `._\ _\"
           print *, "      /               ''._"
-          print *, "      |   ,             ('')"
+          print *, "      |   ,             ("")"
           print *, "      |__,'`-..--|__|--''"
        end program
