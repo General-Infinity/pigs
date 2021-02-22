@@ -1,3 +1,5 @@
+awk:
+	awk -f pig.awk
 bf:
 	bfi main.bf
 c:
@@ -18,5 +20,10 @@ pig:
 	echo "     __,---.__" && echo "  ,-^         ^-.__" && echo "&/           '._\ _\." && echo "/               ''._ " && echo "|   ,             ('')" && echo "|__,'--..--|__|---'"
 haxe:
 	haxe --main Pig --interp -p ./pig.hx
+
+cmake:
+	mkdir build && cd build
+	cmake ..
+
 clean:
 	rm ppig*
