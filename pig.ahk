@@ -10,7 +10,7 @@ Gui Font, s16, Lucida Console
 Gui Add, Edit, x0 y0 w599 h429 +Multi, `n     __,---.__`n  ,-'         ``-.__`n&/           ``._\ _\`n/               ''._`n|   ,             (")`n|__,'``-..--|__|--''
 Gui Font
 
-Gui Show, w599 h429, pig
+Gui Show, w300 h160, pig
 Return
 
 GuiEscape:
