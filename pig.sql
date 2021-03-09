@@ -18,4 +18,4 @@ SELECT pig5 FROM pig;
 SELECT pig6 FROM pig;
 
 -- F for pig
-DROP TABLE pig;
+DROP TABLE pig; 
