@@ -6,6 +6,6 @@ void main()
     writeln("  ,-'         `-.__");
     writeln("&/           `._\\ _\\");
     writeln("/               ''._ ");
-    writeln("|   ,             ('')");
+    writeln("|   ,             (\")");
     writeln("|__,'`-..--|__|--''");
 }
