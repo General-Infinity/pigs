@@ -26,7 +26,7 @@ perl:
 pig:
 	echo "     __,---.__" && echo "  ,-^         ^-.__" && echo "&/           '._\ _\." && echo "/               ''._ " && echo "|   ,             ('')" && echo "|__,'--..--|__|---'"
 haxe:
-	haxe --main Pig --interp -p ./pig.hx
+	haxe --interp Pig.hx -m Pig
 rust:
 	rustc pig.rs -o ppigrust
 
