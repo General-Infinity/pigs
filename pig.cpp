@@ -1,11 +1,15 @@
 #include <iostream>
 
-int main() {
-    std::cout << "     __,---.__\n";
-    std::cout << "  ,-'         `-.__\n";
-    std::cout << "&/           `._\\ _\\\n";
-    std::cout << "/               ''._ \n";
-    std::cout << "|   ,             ('')\n";
-    std::cout << "|__,'`-..--|__|--''\n";
+static const char* PIG =
+"     __,---.__\n"
+"  ,-'         `-.__\n"
+"&/           `._\\ _\\\n"
+"/               ''._ \n"
+"|   ,             ('')\n"
+"|__,'`-..--|__|--''\n";
+
+int main()
+{
+    std::cout<<PIG;
     return 0;
 }
