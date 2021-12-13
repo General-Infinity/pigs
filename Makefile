@@ -29,7 +29,8 @@ haxe:
 	haxe --interp Pig.hx -m Pig
 rust:
 	rustc pig.rs -o ppigrust
-
+pascal:
+	fpc pig.pas
 cmake:
 	mkdir build && cd build
 	cmake ..
