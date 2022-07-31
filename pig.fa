@@ -1,0 +1,15 @@
+include 'std/lstd.fa'
+
+
+fun main [ str str int ] int eo
+    "      __,---.__      "  ro #puts
+    "  ,-'         `-.__  "  ro #puts
+    "&/           `._\\ _\\" ro #puts
+    "/               ''._ "  ro #puts
+    "|   ,             (\""  ro #puts
+    "|__,'`-..--|__|--''  "  ro #puts
+
+    %EXIT_SUCCESS
+end
+
+#main #exit

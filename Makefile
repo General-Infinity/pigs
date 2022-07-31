@@ -34,6 +34,8 @@ pascal:
 cmake:
 	mkdir build && cd build
 	cmake ..
+fa:
+	fac pig.fa
 
 clean:
 	rm ppig*
